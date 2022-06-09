@@ -7,15 +7,17 @@ public class CCuenta {
     private String cuenta;
     private double saldo;
     private double tipoInterés;
+    private double dinero;
 
     public CCuenta(){
     }
 
-    public CCuenta(String nom, String cue, double sal, double tipo)
+    public CCuenta(String nom, String cue, double sal, double tipo,double din)
     {
         nombre =nom;
         cuenta=cue;
         saldo=sal;
+        dinero=din;
     }
 
     public double estado()
